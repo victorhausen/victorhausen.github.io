@@ -2,38 +2,47 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet.css">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <title>Hausen</title>
 </head>
 
 <body>
   <!-- cover -->
   <div>
+    <!-- Photo by Patrick Miyaoka. Bosque Zaninelli - Curitiba, PR, Brazil. -->
     <img src="cover2.jpg" alt="" style="width: 100%;">
   </div>
 
   <!-- navbar -->
   <div class="navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo navbar-brand">Victor Hausen</a>
-        <ul id="nav-mobile" class="right">
-          <li><a href="#topProjects">Projects</a></li>
-          <li><a href="#publications">Education</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </div>
+    <nav class="nav-wraper">
+      <a href="#" class="brand-logo navbar-brand">Hausen</a>
+      <a href="" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#topProjects">Projects</a></li>
+        <li><a href="#publications">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
     </nav>
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#topProjects">Projects</a></li>
+      <li><a href="#publications">Education</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+
   </div>
-  <div class="container" style="padding-left:10%;">
+  <div id="main" class="container">
     <div id="bio" class="row">
       <div class="col s12 m12 l12 xl9">
-        <h5>Hello, I'm Victor.</h5>
-        <p>I'm 22. I will be majoring in Political Science in less than one year from now. I'm hooked into Data Science and coding, and I'm also very enthusiastic about how bringing Social Sciences and technology together can produce tangible
+        <h5>Hello, I'm Hausen!</h5>
+        <p>I'm 22. I will be majoring in Political Science in less than one year from now. I'm hooked into Data Science and programming, and I'm also very enthusiastic about how bringing Social Sciences and technology together can produce tangible
           improvement to the world we live in, and create value.</p>
       </div>
     </div>
@@ -207,6 +216,14 @@
       </div>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    })
+  </script>
 </body>
 
 </html>
