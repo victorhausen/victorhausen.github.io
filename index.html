@@ -15,25 +15,26 @@
   <!-- cover -->
   <div>
     <!-- Photo by Patrick Miyaoka. Bosque Zaninelli - Curitiba, PR, Brazil. -->
-    <img src="cover2.jpg" alt="" style="width: 100%;">
+    <img src="static/cover/cover-name-over-unilivre.jpg" alt="" class="cover hide-on-small-only">
+    <img src="static/cover/cover-unilivre.jpg" alt="" class="cover hide-on-med-and-up">
   </div>
 
   <!-- navbar -->
   <div class="navbar-fixed">
     <nav class="nav-wraper">
       <a href="#" class="brand-logo navbar-brand">Hausen</a>
-      <a href="" class="sidenav-trigger" data-target="mobile-links">
+      <a href="" class="right sidenav-trigger" data-target="mobile-links">
         <i class="material-icons">menu</i>
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#topProjects">Projects</a></li>
-        <li><a href="#publications">Education</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+        <li class="hide"><a href="#topProjects">Projects</a></li>
+        <li class="hide"><a href="#publications">Education</a></li>
+        <li class="hide"><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
     <!-- sidenav -->
     <ul class="sidenav" id="mobile-links">
-      <li><a href="#topProjects">Projects</a></li>
+      <li class="hide"><a href="#topProjects">Projects</a></li>
       <li><a href="#publications">Education</a></li>
       <li><a href="#contacts">Contacts</a></li>
     </ul>
@@ -43,12 +44,13 @@
     <div id="bio" class="row">
       <div class="col s12 m12 l12 xl9">
         <h5>Hello, I'm Hausen!</h5>
-        <p>I'm 22. I will be majoring in Political Science in less than one year from now. I'm hooked into Data Science and programming, and I'm also very enthusiastic about how bringing Social Sciences and technology together can produce tangible
-          improvement to the world we live in, and create value.</p>
+        <p>I'm 22, based in Curitiba, Brazil. I will be majoring in Political Science in less than one year from now. I'm hooked into Data Science and programming, and I'm also very enthusiastic about how bringing Social Sciences and technology together can produce tangible
+          improvement to the world we live in.</p>
+          <p></p>
       </div>
     </div>
     <!-- content list -->
-    <div id="topProjects">
+    <div id="topProjects" class="hide">
       <!-- upper row -->
       <div class="row topProjects">
         <div class="col s12 m4 l4 xl3 snapshotFrameRight" style="height:15em;">
@@ -81,7 +83,7 @@
       </div>
       <!-- footer -->
       <div class="row" style="text-align:right;">
-        <div class="col m12 l12 xl9 moreContent">
+        <div class="col s12 m12 l12 xl9 moreContent">
           <a href="projects.index">More Projects...</a>
         </div>
       </div>
@@ -102,10 +104,10 @@
             </div>
             <div class="row">
               <div class="col xl6 l9 grey-text text-darken-1 compositListJobRole">
-                Majoring in Social Sciences (Political Science)
+                Majoring in Political Science<font class="hide-on-med-and-up"> [2016 - Today]</font>
               </div>
-              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod">
-                <div>2016 - Present</div>
+              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod hide-on-small-only">
+                <div>2016 - Today</div>
               </div>
             </div>
           </div>
@@ -116,18 +118,18 @@
               <div class="col xl9 l12">Federal Institute of Education, Science, and Technology of Rio Grande do Sul (Brazil)</div>
             </div>
             <div class="row">
-              <div class="col xl6 l9 grey-text text-darken-1 compositListJobRole">
-                Highschool
+              <div class="col s12 m6 xl6 l9 grey-text text-darken-1 compositListJobRole">
+                Highschool <font class="hide-on-med-and-up"> [2012 - 2015]</font>
               </div>
-              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod">
+              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod hide-on-small-only">
                 <div>2012 - 2015</div>
               </div>
             </div>
             <div class="row">
-              <div class="col xl6 l9 grey-text text-darken-1 compositListJobRole">
-                Tech in System Development (not complete)
+              <div class="col s12 m6 xl6 l9 grey-text text-darken-1 compositListJobRole">
+                Tech in System Development (not complete)<font class="hide-on-med-and-up"> [2012 - 2015]</font>
               </div>
-              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod">
+              <div class="col xl3 l3 grey-text text-darken-1 compositListTimePeriod hide-on-small-only">
                 <div>2012 - 2015</div>
               </div>
             </div>
@@ -145,11 +147,14 @@
       <ul>
         <li>
           <div class="row">
-            <div class="col l9 xl7"><a href="https://scielo.conicyt.cl/scielo.php?script=sci_abstract&pid=S0719-367X2018000200201&lng=en&nrm=iso&tlng=pt">
+            <div class="col s12 m9 l9 xl8">
+              <div class='hide-on-med-and-up'>2016</div>
+              <a href="https://scielo.conicyt.cl/scielo.php?script=sci_abstract&pid=S0719-367X2018000200201&lng=en&nrm=iso&tlng=pt">
                 Que reforma política é discutida pelo Jornalismo? Um estudo acerca da cobertura do Portal da Folha de S. Paulo sobre o assunto entre 1994 e 2016. In Cuad.inf.
-              </a></div>
-            <div class="col l3 xl2 grey-text text-darken-1 compositListTimePeriod">
-              <div>2018</div>
+              </a>
+            </div>
+            <div class="col l3 xl1 grey-text text-darken-1 compositListTimePeriod hide-on-small-only">
+              2018
             </div>
           </div>
         </li>
@@ -171,11 +176,11 @@
               <div class="col l12">Paraná State Museum</div>
             </div>
             <div class="row">
-              <div class="col l9 xl6 grey-text text-darken-1 compositListJobRole">
-                Archeology Department Intern
+              <div class="col s12 l8 xl6 grey-text text-darken-1 compositListJobRole">
+                Intern at Archeology Department<font class="hide-on-med-and-up">[July 2018 - Now]</font>
               </div>
-              <div class="col l3 xl3 grey-text text-darken-1 compositListTimePeriod">
-                <div>July 2018 - Present</div>
+              <div class="col l4 xl3 grey-text text-darken-1 compositListTimePeriod hide-on-small-only">
+                <div>July 2018 - Now</div>
               </div>
             </div>
             <div class="row">
@@ -187,7 +192,7 @@
               </div>
             </div>
             <div class="row" style="text-align:right;">
-              <div class="col l12 xl9 moreContent">
+              <div class="col s12 m12 l12 xl9 moreContent">
                 <a href="experience.index">More...</a>
               </div>
             </div>
