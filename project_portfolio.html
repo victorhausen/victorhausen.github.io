@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- MEU CSS -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Hausen</title>
+</head>
+
+<body>
+  <!-- cover -->
+  <div>
+    <!-- Photo by Patrick Miyaoka. Bosque Zaninelli - Curitiba, PR, Brazil. -->
+    <img src="static/cover/cover-name-over-unilivre.jpg" alt="" class="cover hide-on-small-only">
+    <img src="static/cover/cover-unilivre.jpg" alt="" class="cover hide-on-med-and-up">
+  </div>
+
+  <!-- navbar -->
+  <div class="navbar-fixed">
+    <nav class="nav-wraper">
+      <a href="#" class="brand-logo navbar-brand">Hausen</a>
+      <a href="" class="right sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="hide"><a href="#topProjects">Projects</a></li>
+        <li class="hide"><a href="#publications">Education</a></li>
+        <li class="hide"><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#"></a></li>
+      <li class="hide"><a href="#topProjects">Projects</a></li>
+      <li><a href="#publications">Education</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+
+  </div>
+  <div id="main" class="container">
+    <div id="bio" class="row">
+      <div class="col s12 m12 l12 xl9">
+        <h5>Hello, I'm Hausen!</h5>
+        <p>Then I decided I needed a Porfolio. My frst real experience with a real (mainly front-end) webdev problem.</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+    })
+  </script>
+</body>
+
+</html>

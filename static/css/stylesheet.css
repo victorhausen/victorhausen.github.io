@@ -155,6 +155,12 @@ img.cover{
   }
 }
 
+h5.project-title {
+  margin-bottom: 0;
+}
+span.project-subtitle {
+}
+
 @media screen and (min-width: 600px) {
   div#main {
     padding-left: 10%;
