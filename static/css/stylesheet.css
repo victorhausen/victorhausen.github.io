@@ -1,11 +1,21 @@
 @font-face {
   font-family: "Cousine";
-  src: url("fonts/Cousine-Regular.ttf");
+  src: url("../fonts/Cousine-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url("../fonts/Merriweather-Bold.ttf");
 }
 
 @font-face {
   font-family: "Cousine Bold";
-  src: url("fonts/Cousine-Bold.ttf");
+  src: url("../fonts/Cousine-Bold.ttf");
 }
 
 body {
@@ -110,12 +120,6 @@ a.navbar-brand {
   padding: 0 1em;
 }
 
-div.navbar-fixed {
-  position: absolute;
-  top: 0;
-  z-index: 999999999;
-}
-
 nav {
   background: rgb(66, 66, 66, .7);
 }
@@ -160,10 +164,21 @@ h5.project-title {
 }
 span.project-subtitle {
 }
+span#name-cover{
+  position: absolute;
+  bottom: .2em;
+  right: .8em;
+  font-size: 8em;
+  color:white;
+  font-family: Cousine;
+}
 
 @media screen and (min-width: 600px) {
   div#main {
     padding-left: 10%;
+  }
+  div.nav-container{
+    padding-left:10%;
   }
 }
 
