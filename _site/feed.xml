@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 May 2020 18:59:09 -0300</pubDate>
+    <lastBuildDate>Mon, 25 May 2020 18:59:09 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>How to Align and Extract a face from an image?</title>
+        <description>&lt;p&gt;This is a very simple task in image processing. The alignment happens in two easy steps: first you computer the facial landmarks using your algorithm of choice. Then you take two points that should be parallel, such as the eyes’ outer corners, and rotate the image &lt;i&gt;beta&lt;/i&gt; degrees, in order to align these points in the X axis (and the image as a whole).&lt;/p&gt;
+
+&lt;p&gt;beta = equation&lt;/p&gt;
+
+&lt;p&gt;In order to demonstrate it, I asked my friend Gabriel, If I could use he’s profile picture(he said yes, thanks Gabs).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Before&lt;/th&gt;
+      &lt;th&gt;Rotating&lt;/th&gt;
+      &lt;th&gt;After&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;../assets/images/gabriel_before_rotation.png&quot; alt=&quot;before&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;../assets/images/gabriel_on_rotation.png&quot; alt=&quot;on&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;../assets/images/gabriel_face_extraction.png&quot; alt=&quot;after&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can check &lt;a href=&quot;https://github.com/victorhausen/computer-vision-toolkit/blob/master/notebooks/face_rotation_and_extraction.ipynb&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;this&lt;/i&gt;&lt;/a&gt; and others implementation in my &lt;a href=&quot;https://github.com/victorhausen/computer-vision-toolkit&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;Computer Vision Toolkit&lt;/i&gt;&lt;/a&gt; repository.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2020 00:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/posts/how-to-align-and-extraxt-a-face-from-an-image.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/posts/how-to-align-and-extraxt-a-face-from-an-image.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

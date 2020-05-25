@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Cousine";
+  src: url("../fonts/Cousine-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url("../fonts/Merriweather-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Cousine Bold";
+  src: url("../fonts/Cousine-Bold.ttf");
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: Cousine;
+}
+
+div.projectTag {}
+
+div.projectTag p {
+  margin: 0;
+  margin-left: .3em;
+}
+
+div.projectTag h5 {
+  margin-top: .4em;
+  margin-bottom: 0;
+  margin-left: .3em;
+}
+
+a {
+  color: black;
+}
+
+div#bio {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div#content {
+  padding-left: 10%;
+}
+
+p#datetime {
+  text-align: right;
+  color: grey;
+  font-size: .8em;
+}
+
+div#sideProjects {
+  margin-bottom: 2em;
+}
+
+div#publications {
+  margin-bottom: 2em;
+}
+
+div#education {
+  margin-bottom: 2em;
+}
+
+div#contacts {
+  margin-bottom: 2em;
+}
+
+div#curriculum {
+  margin-bottom: 2em;
+}
+
+div#bio p {
+  padding-top: 0em;
+  text-align: justify;
+}
+
+div.content {
+  padding-top: 3em;
+  text-align: justify;
+}
+
+div.compositListCompanyName p {}
+
+div.compositListJobRole p {}
+
+div.compositListTimePeriod div {
+  float: right;
+}
+
+div.compositListJobDescription p {
+  text-indent: 0em;
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+div.compositListElement div.row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.compositListElement {
+  margin-bottom: 1em;
+}
+
+div.snapshotFrame {
+  margin-bottom: 1em;
+  padding: 4em;
+}
+
+a.navbar-brand {
+  font-family: "Cousine Bold";
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+nav {
+  background: rgb(66, 66, 66, .7);
+}
+
+div.moreContent {
+  text-align: right;
+  margin-top: 1em;
+}
+
+div.topProjects {
+  margin-bottom: 0;
+}
+
+div.row {
+  margin-bottom: 0;
+}
+
+div ul {
+  margin: 0;
+}
+
+img.cover{
+  width: 100%;
+}
+
+@media screen and (max-width:600px) {
+  div.snapshotFrameLeft {
+    padding: 0;
+  }
+
+  div.snapshotFrameMid {
+    padding: 0;
+  }
+
+  div.snapshotFrameRight {
+    padding: 0;
+  }
+}
+
+.list-element-title {
+  margin-bottom: 0;
+}
+.section-title{
+  margin-bottom: 1em;
+}
+.section{
+  margin-bottom: 2em;
+}
+
+span.project-subtitle {
+}
+span#name-cover{
+  position: absolute;
+  bottom: .2em;
+  right: .8em;
+  font-size: 8em;
+  color:white;
+  font-family: Cousine;
+}
+
+@media screen and (min-width: 600px) {
+  div#main {
+    padding-left: 10%;
+  }
+  div.nav-container{
+    padding-left:10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.snapshotFrameLeft {
+    padding-left: .25em !important;
+  }
+
+  div.snapshotFrameMid {
+    padding: 0 .25em !important;
+  }
+
+  div.snapshotFrameRight {
+    padding-right: .25em !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  div#bio {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+h4.post-title{
+  margin-bottom: 0;
+}
+
+p > a {
+  text-decoration: underline;
+}

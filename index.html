@@ -1,70 +1,17 @@
-<html>
+---
+layout: default
+---
+{% include presentation.html %}
+  <h5 class="section-title">Last Posts</h5>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- MEU CSS -->
-  <link rel="stylesheet" href="static/css/stylesheet.css">
-  <title>Hausen</title>
-</head>
+  <ul class="">
+    {% for post in site.posts %}
+      <li>
+        <h6 class='list-element-title'>
+          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h6>
+        <span class="grey-text">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<body>
-  <!-- cover -->
-  <div style="text-align:center; position:relative;">
-    <!-- Photo by Patrick Miyaoka. Bosque Zaninelli - Curitiba, PR, Brazil. -->
-    <img src="static/cover/cover-unilivre.jpg" alt="" class="cover" style="">
-    <span height=100% width=100% id='name-cover' class="hide-on-small-only">Victor Hausen</span>
-  </div>
-
-  <!-- navbar -->
-  <div class="">
-    <nav class="nav-wraper black">
-      <div class="container nav-container">
-        <div class="row">
-          <div class="col s12 m12 l12 xl9">
-            <a href="index.html" style="font-size:2em;">Home</a>
-            <ul class="right">
-              <li class="hide"><a href="#topProjects">Projects</a></li>
-              <li class=""><a href="cv.html">Resumé</a></li>
-              <li class=""><a href="contacts.html" style="padding-right:0;">Contacts</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-
-<!-- presentation -->
-  <div id="main" class="container">
-    <div id="bio" class="row">
-      <div class="col s12 m12 l12 xl9">
-        <img src="static/files/victor_hausen.jpeg" alt="" width="30%" height="auto" align='right' style="margin-left: 2em; margin-top:1em;" class="z-depth-2">
-        <h5>Hey, I'm Hausen!</h5>
-        <p>I'm based in Curitiba, Brazil. I will be majoring in Political Science in about a semester from now. My main interests in Data Science and programming are how to use Computer Vision, and Data Analytics in order to close the gap between Social Sciences
-          and technology in order to produce tangible solutions.</p>
-        <p></p>
-      </div>
-    </div>
-    <div id='education'>
-      <div class="row">
-        <div class="col s12 m12 l12 xl12">
-          <!-- -->
-        </div>
-      </div>
-    </div>
-    <!-- Contacts -->
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('.sidenav').sidenav();
-    })
-  </script>
-</body>
-
-</html>
+      </li>
+    {% endfor %}
+  </ul>

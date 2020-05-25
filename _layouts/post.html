@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+  <div style="padding-left:12.5%;" class="hide-on-med-and-down container">
+    <h4 class="post-title">{{page.title}}</h4>
+    <span class="grey-text">
+      {{ page.date | date: "%b %-d, %Y" }}
+    </span>
+    <br>
+    <body target="_blank">
+    {{ content }}
+  </div>
+  <div style="" class="hide-on-large-only container ">
+    <h4>{{page.title}}</h4>
+    <br>
+    {{ content }}
+  </div>
+  </body>
+</html>
